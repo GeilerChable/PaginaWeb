@@ -1,0 +1,30 @@
+{% extends 'core/base.html' %}
+    
+    {% block title %} Experiencia {% endblock %}
+
+{% load static %}
+    {% block background %} {%static 'core/img/portfolio-bg.jpg'%} {%endblock%}
+
+    {% block headers %} <h2> Mi meta es seguir manteniendo un crecimiento conitnuo en mi vida laboral y conocimientos</h2> {% endblock%}
+
+    {% block content %}  
+
+    <div class="row"> 
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+            <img class="img-fluid avatar" src="{% static 'core/img/profesor.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+            <h2 class="section-heading">Experiencia Laboral y Profesional</h2>   
+            <p> Profesor de Matemáticas a nivel Bachillerato en el Estado de Yucatán: </p>
+            <li>Trabaje en el Colegio Educativo Serrano Montalban (CESMAC) de la ciudad de Mérida.</li>
+            <li>Trabaje en el Colegio Yucatán en la ciudad de Mérida. Aquí además de dar clases de Matemáticas di clases
+                Tecnologías, como lo era paqueteria office, la cración de un blog y algoritmos.
+            </li>
+            <p> De igual modo realizo trabajos como chofer de plataformas digitales y atendiendo un mini super six (negocio familiar). </p>
+            <p> Actividades a destacar en mi experiencia laboral, seria en lo relacionado a la atención a clientes, comunicación
+                trabajo individual y en equipo, análisis y organización
+            </p>
+            
+        </div>
+    </div>
+    {% endblock %}

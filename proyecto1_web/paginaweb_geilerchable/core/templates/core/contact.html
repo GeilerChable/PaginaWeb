@@ -1,0 +1,22 @@
+{% extends 'core/base.html' %}
+    
+{% block title %} Contacto {% endblock %}
+
+{% load static %}
+    {%block background%} {% static 'core/img/contact.png' %}  {%endblock%}   
+    {% block headers %} <h2> Medios de Constacto </h2> {% endblock headers %} <h2> Medios de Contacto </h2> 
+
+{%block content%}    
+<div class="row"> 
+    <div class="col-lg-3 col-md-4 offset-lg-1">
+        <img class="img-fluid avatar" src="{% static 'core/img/contactame.png' %}" alt="">
+    </div>
+    <div class="col-lg-7 col-md-8">
+        <h2 class="section-heading">Medios de Contacto</h2>   
+        <p> Contactame por estos medios: </p>
+        <li> Correo: geilerademar27@gmail.com </li>
+        <li> Número Teléfonico: 9995622202 </li>
+        <li> Linkedin: https://wwww.linkedin.com/in/geiler-chable-cool-b5b740245 </li>
+    </div>
+</div>
+{% endblock %}

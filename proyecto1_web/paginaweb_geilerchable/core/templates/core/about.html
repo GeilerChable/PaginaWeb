@@ -1,0 +1,29 @@
+{% extends 'core/base.html' %}
+    
+    {% block title %}About me{% endblock %}
+
+{% load static %}
+    {% block background %} {% static 'core/img/about-me.jpg' %} {%endblock%} 
+
+    
+    {% block content %}    
+    <div class="row"> 
+        <div class="col-lg-3 col-md-4 offset-lg-1">
+            <img class="img-fluid avatar" src="{% static 'core/img/django.jpg' %}" alt="">
+        </div>
+        <div class="col-lg-7 col-md-8">
+            <h2 class="section-heading">Geiler Chable</h2>   
+            <p>Nacido en Mérida, Yucatán, soy Licencia en Enseñanza de las Matemáticas, por lo cual me desarrolle como profesor de Matemáticas</p>
+            <p>He decidido darle un giro a mi vida, estudiando y desarrollando habilidades de programación</p>
+            <p>Entre las tecnologías que he decidido aprender se encuentran:</p>
+            <li>HTML</li>
+            <li>Lenguaje de programación Python</li>
+            <li>Framework Django</li>
+            <li>Git and Github</li>
+            <li>Base de Datos: MySql</li>
+        </div>
+    </div>
+    {% endblock %}
+
+
+
